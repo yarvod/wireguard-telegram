@@ -1,0 +1,2 @@
+mainid = [718724903]
+api_tg = "6976924907:AAHmtG4HSqYKrEk4My8-FFCwud4OEf40sLw"
