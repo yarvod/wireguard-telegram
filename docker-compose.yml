@@ -8,6 +8,8 @@ services:
       - /etc/wireguard:/etc/wireguard
 #    environment:
 #      VARIABLE_NAME: value
+    env_file:
+      - .env
     network_mode: host
     ports:
       - 51830:51830/udp
