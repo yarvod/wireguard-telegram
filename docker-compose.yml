@@ -6,6 +6,7 @@ services:
       dockerfile: Dockerfile
     volumes:
       - /etc/wireguard:/etc/wireguard
+      - ./:/app
 #    environment:
 #      VARIABLE_NAME: value
     env_file:
